@@ -1,0 +1,39 @@
+
+
+.header {
+    display: flex;
+
+}
+
+.header.main {
+    flex: 1;
+    margin-right: auto;
+    margin: 30px;
+}
+
+.header.side {
+    flex-shrink: 1;
+    margin: 30px;
+}
+
+.backgroundTop {
+    padding-bottom: 200px;
+    background-color: blueviolet;
+
+}
+
+.headerContent {
+    display: flex;
+}
+.headerText {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerText {
+    flex: 1;
+}
+
+.headerImage {
+    flex: 1;
+}
