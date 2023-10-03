@@ -81,7 +81,9 @@
 
 .midBodyContainer {
   display: flex;
-  padding-inline: 50px;
+  padding-inline: 20px;
+  margin-bottom: 20px;
+
 }
 .items {
   flex: 1;
@@ -92,10 +94,85 @@
   height: 140px;
   width: auto;
   border-radius: 6px;
+  
 }
 
 .items p {
   color: gray;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+}
+
+.quoteContainer {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.quote {
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Roboto",sans-serif;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.author {
+  padding-left: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.bottomBody {
+  height: 150px;
+
+}
+
+.box {
+  display: flex;
+  background-color: #3882f6;
+  height: 100px;
+  margin: 50px;
+  border-radius: 8px;
+}
+
+.boxText {
+  flex: 1;
+  padding-top: 18px;
+  padding-left: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f9faf8;
+}
+
+.trackerButton {
+  margin-top: 25px;
+  margin-right: 50px;
+  height: 50px;
+  width: auto;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-color: #f9faf8;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright {
+  display: flex;
 }
